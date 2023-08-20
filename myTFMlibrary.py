@@ -3,11 +3,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import json
-import decomposition
-import robustness
+import decomposition #Carpentier's work original library
+import robustness   #Carpentier's work original library
 import timeit
 import networkx as nx
 from scipy.special import gamma
+
 
 
 def erdos_renyi(N, p):
